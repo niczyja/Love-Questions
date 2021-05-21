@@ -9,24 +9,33 @@
 /* Begin PBXBuildFile section */
 		52D07C452658537D00A0CF52 /* Love_QuestionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C322658537B00A0CF52 /* Love_QuestionsApp.swift */; };
 		52D07C462658537D00A0CF52 /* Love_QuestionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C322658537B00A0CF52 /* Love_QuestionsApp.swift */; };
-		52D07C472658537D00A0CF52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C332658537B00A0CF52 /* ContentView.swift */; };
-		52D07C482658537D00A0CF52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C332658537B00A0CF52 /* ContentView.swift */; };
+		52D07C472658537D00A0CF52 /* QuestionsSetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C332658537B00A0CF52 /* QuestionsSetsList.swift */; };
+		52D07C482658537D00A0CF52 /* QuestionsSetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C332658537B00A0CF52 /* QuestionsSetsList.swift */; };
 		52D07C492658537D00A0CF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D07C342658537C00A0CF52 /* Assets.xcassets */; };
 		52D07C4A2658537D00A0CF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D07C342658537C00A0CF52 /* Assets.xcassets */; };
-		52D07C572658548500A0CF52 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C562658548500A0CF52 /* Questions.swift */; };
-		52D07C582658548500A0CF52 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C562658548500A0CF52 /* Questions.swift */; };
+		52D07C572658548500A0CF52 /* QuestionsSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C562658548500A0CF52 /* QuestionsSet.swift */; };
+		52D07C582658548500A0CF52 /* QuestionsSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C562658548500A0CF52 /* QuestionsSet.swift */; };
+		52D07C6126585A9000A0CF52 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C6026585A9000A0CF52 /* Question.swift */; };
+		52D07C6226585A9000A0CF52 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C6026585A9000A0CF52 /* Question.swift */; };
+		52D07C6826585AB800A0CF52 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C6726585AB800A0CF52 /* TestData.swift */; };
+		52D07C6926585AB800A0CF52 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C6726585AB800A0CF52 /* TestData.swift */; };
+		52D07C7326585FD500A0CF52 /* QuestionsSetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C7226585FD500A0CF52 /* QuestionsSetDetail.swift */; };
+		52D07C7426585FD500A0CF52 /* QuestionsSetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D07C7226585FD500A0CF52 /* QuestionsSetDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52D07C322658537B00A0CF52 /* Love_QuestionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_QuestionsApp.swift; sourceTree = "<group>"; };
-		52D07C332658537B00A0CF52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52D07C332658537B00A0CF52 /* QuestionsSetsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsSetsList.swift; sourceTree = "<group>"; };
 		52D07C342658537C00A0CF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D07C392658537C00A0CF52 /* Love Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D07C3C2658537C00A0CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D07C412658537D00A0CF52 /* Love Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D07C432658537D00A0CF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D07C442658537D00A0CF52 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		52D07C562658548500A0CF52 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		52D07C562658548500A0CF52 /* QuestionsSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsSet.swift; sourceTree = "<group>"; };
+		52D07C6026585A9000A0CF52 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		52D07C6726585AB800A0CF52 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		52D07C7226585FD500A0CF52 /* QuestionsSetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsSetDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,9 @@
 		52D07C312658537B00A0CF52 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				52D07C5B265854C800A0CF52 /* Data */,
+				52D07C7B26585FF000A0CF52 /* View */,
+				52D07C5B265854C800A0CF52 /* Model */,
 				52D07C322658537B00A0CF52 /* Love_QuestionsApp.swift */,
-				52D07C332658537B00A0CF52 /* ContentView.swift */,
 				52D07C342658537C00A0CF52 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -94,12 +103,23 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		52D07C5B265854C800A0CF52 /* Data */ = {
+		52D07C5B265854C800A0CF52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				52D07C562658548500A0CF52 /* Questions.swift */,
+				52D07C6026585A9000A0CF52 /* Question.swift */,
+				52D07C562658548500A0CF52 /* QuestionsSet.swift */,
+				52D07C6726585AB800A0CF52 /* TestData.swift */,
 			);
-			path = Data;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D07C7B26585FF000A0CF52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52D07C332658537B00A0CF52 /* QuestionsSetsList.swift */,
+				52D07C7226585FD500A0CF52 /* QuestionsSetDetail.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D07C572658548500A0CF52 /* Questions.swift in Sources */,
-				52D07C472658537D00A0CF52 /* ContentView.swift in Sources */,
+				52D07C572658548500A0CF52 /* QuestionsSet.swift in Sources */,
+				52D07C6126585A9000A0CF52 /* Question.swift in Sources */,
+				52D07C472658537D00A0CF52 /* QuestionsSetsList.swift in Sources */,
+				52D07C6826585AB800A0CF52 /* TestData.swift in Sources */,
 				52D07C452658537D00A0CF52 /* Love_QuestionsApp.swift in Sources */,
+				52D07C7326585FD500A0CF52 /* QuestionsSetDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D07C582658548500A0CF52 /* Questions.swift in Sources */,
-				52D07C482658537D00A0CF52 /* ContentView.swift in Sources */,
+				52D07C582658548500A0CF52 /* QuestionsSet.swift in Sources */,
+				52D07C6226585A9000A0CF52 /* Question.swift in Sources */,
+				52D07C482658537D00A0CF52 /* QuestionsSetsList.swift in Sources */,
+				52D07C6926585AB800A0CF52 /* TestData.swift in Sources */,
 				52D07C462658537D00A0CF52 /* Love_QuestionsApp.swift in Sources */,
+				52D07C7426585FD500A0CF52 /* QuestionsSetDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

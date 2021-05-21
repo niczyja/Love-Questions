@@ -1,25 +1,11 @@
 //
-//  Questions.swift
+//  TestData.swift
 //  Love Questions
 //
 //  Created by Maciej Sienkiewicz on 21/05/2021.
 //
 
 import Foundation
-
-struct Question {
-    
-    let number: Int
-    let text: String
-
-}
-
-struct QuestionsSet {
-    
-    let name: String
-    let questions: [Question]
-    
-}
 
 let testData: [QuestionsSet] = [
     QuestionsSet(name: "6 questions that lead to love", questions: [

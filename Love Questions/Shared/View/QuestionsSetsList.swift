@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct QuestionsSetsListView: View {
+struct QuestionsSetsList: View {
     var questionsSets: [QuestionsSet] = []
     
     var body: some View {
@@ -29,17 +29,11 @@ struct QuestionsSetsListView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        QuestionsSetsListView(questionsSets: testData)
-    }
-}
-
 struct QuestionsSetCell: View {
     var questionsSet: QuestionsSet
     
     var body: some View {
-        NavigationLink(destination: Text(questionsSet.name)) {
+        NavigationLink(destination: QuestionsSetDetail(questionsSet: questionsSet)) {
             Image(systemName: "photo")
             
             VStack(alignment: .leading) {
@@ -49,5 +43,11 @@ struct QuestionsSetCell: View {
                     .foregroundColor(.secondary)
             }
         }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        QuestionsSetsList(questionsSets: testData)
     }
 }
